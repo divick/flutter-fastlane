@@ -14,4 +14,4 @@ elif [[ -z "${TARGET_SDK}" ]]; then
 else
     target=${TARGET_SDK}
 fi
-docker build --build-arg flutter_version=$FLUTTER_VERSION -t gorapidio/android-fastlane -f android-${target}/Dockerfile android-${target}/
+docker build --build-arg flutter_version=$FLUTTER_VERSION -t gorapidio/flutter-fastlane -f android-${target}/Dockerfile android-${target}/
