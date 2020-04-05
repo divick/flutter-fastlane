@@ -1,4 +1,4 @@
-ARG ANDROID_API_VERSION="android-29"
+ARG ANDROID_API_VERSION="android-28"
 
 FROM gorapidio/android-fastlane:${ANDROID_API_VERSION}
 
